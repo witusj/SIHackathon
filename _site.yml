@@ -1,7 +1,7 @@
 name: "Hackathon Smart Industry"
 navbar:
   title: "Hackathon Smart Industry"
-  left:
+  right:
     - text: "Welkom"
       icon: fa-smile-o
       href: index.html
@@ -11,9 +11,13 @@ navbar:
     - text: "Programma"
       icon: fa-book
       href: 2-programma.html
-    - text: "Locatie"
-      icon: fa-map-o
-      href: 3-locatie.html
+    - text: "Organisatie"
+      icon: fa-info-circle
+      href: 3-organisatie.html
     - text: "Deelnemers"
       icon: fa-group
       href: 4-deelnemers.html
+output:
+  html_document:
+    theme: united
+    highlight: textmate
