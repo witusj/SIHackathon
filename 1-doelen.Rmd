@@ -5,7 +5,7 @@ output: html_document
 
 Tijdens deze bijeenkomst gaan we gezamenlijk vraagstukken verzamelen op het gebied van Smart Industry en bepalen hoe we bestaande kennis hierover het beste kunnen doorgeven aan studenten en aan organisaties die op dit gebied willen groeien.
 
-De uitkomst van onze arbeid zal worden gebruikt om de inhoud van de minor Smart Industry te verrijken.
+De uitkomst van onze arbeid zal worden gebruikt om de inhoud van de minor Smart Industry te verrijken. Uiteindelijk zullen alle ideeën worden omgezet naar activiteiten die in een [digitale leeromgeving](http://ec2-52-30-100-113.eu-west-1.compute.amazonaws.com/course/index.php?categoryid=1) zullen worden samengebracht.
 
 # Thema's {.tabset .tabset-fade}
 
