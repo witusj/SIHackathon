@@ -1,4 +1,5 @@
 name: "Hackathon Smart Industry"
+output_dir: "."
 navbar:
   title: "Hackathon Smart Industry"
   right:
