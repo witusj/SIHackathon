@@ -20,7 +20,7 @@ navbar:
       href: 4-deelnemers.html
 output:
   html_document:
-    self_contained: true
+    self_contained: false
     theme: united
     highlight: textmate
     
