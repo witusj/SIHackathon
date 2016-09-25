@@ -115,22 +115,28 @@ Tekst<br>
 ## Thema: Smart Business
 
 #### Feature 1: De maatschappelijke en zakelijke uitdagingen
-Tekst<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9hkHAc1nku4" frameborder="0" allowfullscreen></iframe><br>
 
 #### Feature 2: Slimme Klanten
-Tekst<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0aU3VG3BfGM" frameborder="0" allowfullscreen></iframe>
+<br>
 
 #### Feature 3: Slimme Processen
-Tekst<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZCLHojIj7eA" frameborder="0" allowfullscreen></iframe>
+<br>
 
 #### Feature 4: Slim Investeren en Financieren
-Tekst<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I-JgtIiwX4M" frameborder="0" allowfullscreen></iframe>
+<br>
 
-#### Feature 5: Slim Informatie Delen
-Tekst<br>
+#### Feature 5: Slim Informatie Gebruiken
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9IIgH0hNtgk" frameborder="0" allowfullscreen></iframe>
+<br>
 
 #### Feature 6: Slimme Werknemers
-Tekst<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-7EvZkcDa7s" frameborder="0" allowfullscreen></iframe>
+<br>
 
 #### Feature 7: Slimme Organisaties
-Tekst<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nLjFTHTgEVU?list=PLQjb7PbWSDVatTnWnc880u9m7LX0UHhwC" frameborder="0" allowfullscreen></iframe>
+<br>
