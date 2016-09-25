@@ -114,7 +114,7 @@ Tekst<br>
 
 ## Thema: Smart Business
 
-#### Feature 1: De maatschappelijke en zakelijke uitdaging
+#### Feature 1: De maatschappelijke en zakelijke uitdagingen
 Tekst<br>
 
 #### Feature 2: Slimme Klanten
