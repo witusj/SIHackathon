@@ -95,19 +95,20 @@ Uit: [Actieagenda SMART INDUSTRY 2014](http://ec2-52-30-100-113.eu-west-1.comput
 ## Thema: Smart Connection
 
 #### Feature 1: Web Technologies
-Tekst<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IbYOYQ-uwj4" frameborder="0" allowfullscreen></iframe>
+<br>
 
-#### Feature 2: Cloud Technologies
-Tekst<br>
+#### Feature 2: Web Development
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0tj6VLuSowQ" frameborder="0" allowfullscreen></iframe>
+<br>
 
-#### Feature 3: Web Development
-Tekst<br>
+#### Feature 3: Data Analytics & Machine Learning
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pfFyZY1RPZU" frameborder="0" allowfullscreen></iframe>
+<br>
 
-#### Feature 4: Data Analytics
-Tekst<br>
-
-#### Feature 5: Machine Learning
-Tekst<br>
+#### Feature 4: Cloud Technologies
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HpPyhsC4q9M?list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC" frameborder="0" allowfullscreen></iframe>
+<br>
 
 
 
