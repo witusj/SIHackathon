@@ -1,0 +1,209 @@
+<html>
+
+<head>
+<style type="text/css">
+.knitr .inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.rimage .left {
+  text-align: left;
+}
+.rimage .right {
+  text-align: right;
+}
+.rimage .center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.str {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.std {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="css/video.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<title>Smart Industry</title>
+</head>
+
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+</style>
+<body>
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="images/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="videos/background2.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-white w3-wide w3-padding-8 w3-card-2">
+    <li>
+      <a href="#home" class="w3-margin-left"><img style="vertical-align:middle width:40px;height:35px;" src="images/han.png" alt="HAN Logo"><span style="vertical-align:middle"> HAN Minor Smart Industry</span</a>
+    </li>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <li class="w3-right w3-hide-small">
+      <a href="#tech" class="w3-left">Technology</a>
+      <a href="#conn" class="w3-left">Connection</a>
+      <a href="#bus" class="w3-left w3-margin-right">Business</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px">
+</header>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content w3-text-white" style="max-width:1100px">  
+
+<!-- Home Section -->
+
+<div class="w3-container w3-padding-64" id="home">
+<p>
+<h1 class="w3-center"><font color="#FF8000">Uitkomsten hackathon 11 november 2016</font></h1><br>
+<h5 class="w3-center"><font color="#F3F781">Een mooie start</font></h5><br>
+    
+    Iedereen bedankt voor de geslaagde sessie! We hebben veel geleerd en een schat aan inspiratie opgedaan. In dit document vinden jullie de resultaten van jullie inspanning zoals we die gaan verwerken in het programma.<br><br>
+    
+    Door onze samenwerking heeft de HAN toegang tot een enorme pool aan know-how die van onschatbare waarde is voor ons als kennisinstelling en daarmee ook voor onze studenten. We zijn jullie zeer dankbaar voor het getoonde enthousiasme en we beloven dat wij met dezelfde energie de kennis die jullie ons aanreiken zullen verwerken tot mooi onderwijs.
+</p>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">Namens het team: een vrolijk Kerstfeest en gelukkig Nieuwjaar!<br><br>
+    <img style="vertical-align:middle width:615px;height:435px;" src="http://www.publicdomainpictures.net/pictures/30000/velka/happy-new-year.jpg" alt="Happy NY">
+</p>
+</div>
+<hr>
+
+<!-- Technology Section -->
+<div class="w3-container w3-padding-64" id="tech">
+
+<h1 class="w3-center"><font color="#FF8000">Technology</font></h1><br>
+<h5 class="w3-center"><font color="#F3F781">Visie en Features</font></h5><br>
+<h6 class="w3-left">
+<table class="w3-left w3-text-white" style="width:100%">
+  <tr>
+    <td valign="top">Deelnemers:</td>
+    <td><font color="#CEF6F5">Thijs Brilleman - De Haagse Hogeschool / Peter de Dreu - Assemblagebedrijf Perfect / Jacqueline van der Holst - Avanade / Wilco van Schriek - Vink Techniek</font></td>
+    </tr>
+  <tr>
+    <td>Sessieleider: </td>
+    <td><font color="#CEF6F5">Franz Maurer - HAN</font></td>
+  </tr>
+</table>
+</h6>
+<br><br>
+<p>
+For displaying the simple facial expressions I used an 8×8 LED board with a built in MAX7219 controller chip. I also added the LM35 temperature, a simple soil moisture and a light sensor and finally for motion detection I used two PIR sensors. George moves his eyes where you come from and only talks if someone is around. The sensor data is concatenated into a JSON string which is then sent to Node.js through the USB. Using web sockets the Node server publishes this data for the browser. In the browser we use the Web Speech APIs to talk to and listen to people.
+    
+    For displaying the simple facial expressions I used an 8×8 LED board with a built in MAX7219 controller chip. I also added the LM35 temperature, a simple soil moisture and a light sensor and finally for motion detection I used two PIR sensors. George moves his eyes where you come from and only talks if someone is around. The sensor data is concatenated into a JSON string which is then sent to Node.js through the USB. Using web sockets the Node server publishes this data for the browser. In the browser we use the Web Speech APIs to talk to and listen to people.
+</p>
+</div>
+<hr>
+
+    <!-- Connection Section -->
+<div class="w3-container w3-padding-64" id="conn">
+<h1 class="w3-center"><font color="#FF8000">Connection</font></h1><br>
+<h5 class="w3-center"><font color="#F3F781">Visie en Features</font></h5><br>
+<h6 class="w3-left">
+<table class="w3-left w3-text-white" style="width:100%">
+  <tr>
+    <td valign="top">Deelnemers:</td>
+    <td><font color="#CEF6F5">Han van der Meer - Saxion Hogeschool / Etienne Schiffelers - PWF Projectmanagement / Ad Thiers -Data Computing / Maurice Verheesen - Data Computing</font></td>
+    </tr>
+  <tr>
+    <td>Sessieleider: </td>
+    <td><font color="#CEF6F5">Witek ten Hove - HAN</font></td>
+  </tr>
+</table>
+</h6>
+<br><br>
+<p>
+Important! While the container is starting, go back to the Lightsail tab in your browser and click in the three dots in the “Running” instance to Manage. then click on the Networking tab. In the table of two enabled ports, click on the plus “Add Another”. Leave “Custom” and “All” under “Aplication” and “Protocol”, repectively, and change port range to 8787. Save.
+
+9. The public IP is printed on the Networking page there. Cut and paste into your browser with :8787 appended. Your username and password are both rstudio, unless you changed them. To allow additional users onto your cloud server, see this page.
+
+An unrelated note about aggregators:We love aggregators! Aggregators collect blogs that have similar coverage for the convenience of readers, and for blog authors they offer a way to reach new audiences. SAS and R is aggregated by R-bloggers, PROC-X, and statsblogs with our
+</p>
+</div>
+<hr>
+ 
+<!-- Business Section -->
+<div class="w3-container w3-padding-64" id="bus">
+<h1 class="w3-center"><font color="#FF8000">Business</font></h1><br>
+<h5 class="w3-center"><font color="#F3F781">Visie en Features</font></h5><br>
+<h6 class="w3-left">
+<table class="w3-left w3-text-white" style="width:100%">
+  <tr>
+    <td valign="top">Deelnemers:</td>
+    <td><font color="#CEF6F5">René Kort - Schut Papier / Bart van Ommeren - Pillen Precision / Jurgen Rutgers - Besite / Mariël Voogel - Kreanet</font></td>
+    </tr>
+  <tr>
+    <td>Sessieleiders: </td>
+    <td><font color="#CEF6F5">Anne-Marie Haanstra - HAN / Jan Willem Timmer - HAN</font></td>
+  </tr>
+</table>
+</h6>
+<br><br>
+<p class="w3-left">
+permission, and by at least 2 other aggregating services which have never contacted us. If you read this on an aggregator that does not credit the blogs it incorporates, please come visit us at SAS and R. We answer comments there and offer direct subscriptions if you like our content. In addition, no one is allowed to profit by this work under our license; if you see advertisements on this page, the aggregator is violating the terms by which we publish our work, except as noted above.
+</p>
+</div>
+<hr>
+  
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
